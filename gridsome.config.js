@@ -40,19 +40,18 @@ module.exports = {
       },
     },
     {
-      // FIXME: config here: https://github.com/darthmeme/gridsome-plugin-rss/tree/master
       use: "gridsome-plugin-rss",
       options: {
         contentTypeName: "Post",
         feedOptions: {
           title: "Julien Tanay",
-          feed_url: "https://julientanay.com/blog/rss.xml",
-          site_url: "https://julientanay.com",
+          feed_url: "https://www.julientanay.com/blog/rss.xml",
+          site_url: "https://www.julientanay.com",
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: "https://julientanay.com/blog/" + node.slug,
+          url: "https://www.julientanay.com/blog/" + node.slug,
           author: node.fields.author,
         }),
         output: {

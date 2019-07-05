@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Cortex",
+    "link": "https://www.crtx.gg",
+    "image": "/crtx.jpg",
+    "role": "Co-Founder",
+    "tags": ["esport"],
+    "description": ""
+  },
+  {
+    "name": "Wikiwars",
+    "link": "https://www.wikiwars.gg",
+    "image": "/wikiwars.png",
+    "tags": ["events"],
+    "description": ""
+  },
+  {
+    "name": "iohook",
+    "link": "https://github.com/wilix-team/iohook",
+    "image": "/code.jpg",
+    "tags": ["open source"],
+    "description": ""
+  }
+]
